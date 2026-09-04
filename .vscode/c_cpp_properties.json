@@ -1,0 +1,18 @@
+{
+  "configurations": [
+    {
+      "name": "AVR-Mac-Homebrew",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/homebrew/include",
+        "/opt/homebrew/Cellar/avr-gcc/**/avr/include"
+      ],
+      "defines": ["__AVR_ATmega328P__"],
+      "compilerPath": "/opt/homebrew/bin/avr-gcc",
+      "intelliSenseMode": "macos-gcc-arm64",
+      "cStandard": "gnu11",
+      "cppStandard": "gnu++14"
+    }
+  ],
+  "version": 4
+}
