@@ -5,6 +5,7 @@ TARGET=main
 
 .PHONY: all flash unflash fuse rdfuse clean
 
+# 실행파일 생성 (컴파일)
 all: $(TARGET).hex
 
 $(TARGET).elf: $(TARGET).c
